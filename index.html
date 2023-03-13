@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Calulador JS</title>
+  </head>
+  <body>
+    <div id="calculadora">
+      <div id="tela"><p id="saida"></p></div>
+      <div id="wrap">
+        <div id="um" onclick="insert('1')">1</div>
+        <div id="dois" onclick="insert('2')">2</div>
+        <div id="tres" onclick="insert('3')">3</div>
+        <div id="soma" onclick="insert('+')">+</div>
+        <div id="quatro" onclick="insert('4')">4</div>
+        <div id="cinco" onclick="insert('5')">5</div>
+        <div id="seis" onclick="insert('6')">6</div>
+        <div id="subtracao" onclick="insert('-')">-</div>
+        <div id="sete" onclick="insert('7')">7</div>
+        <div id="oito" onclick="insert('8')">8</div>
+        <div id="nove" onclick="insert('9')">9</div>
+        <div id="multiplicacao" onclick="insert('*')">*</div>
+        <div id="limpa" onclick="limpar()">C</div>
+        <div id="zero" onclick="insert('0')">0</div>
+        <div id="igual" onclick="calcular()">=</div>
+        <div id="divisao" onclick="insert('/')">/</div>
+      </div>
+
+      <p>CALC.JS#P3</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
