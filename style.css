@@ -14,52 +14,61 @@ body {
   align-items: center;
 }
 
-#calculadora {
+/* Alterar todos os nomes declarados para português */
+
+.calculadora {
   width: 380px;
   height: 530px;
   border-radius: 10px;
-  background-color: #b4c931;
+  background-color: #e1bc29;
 }
 
-#tela {
+.tela {
+  display: flex;
+  align-items: center;
   width: 340px;
   height: 100px;
   border-radius: 10px;
   margin: 1.25rem;
-  background-color: #d9d9d9;
+  background-color: #424242;
 }
 
-#tela p {
-    font-size: 2.25rem;
+.tela p {
+  font-size: 3rem;
+  color: #fff;
 }
 
-#wrap {
+.wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
   margin: 1.25rem;
 }
 
-#wrap > div {
+.wrap > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  user-select:none;
+  user-select: none;
   width: 70px;
   height: 70px;
   border-radius: 10px;
   font-size: 2.25rem;
   color: #fff;
-  background-color: #587291;
+  background-color: #4d9de0;
 }
 
-#wrap > div:hover {
-    cursor: pointer;
+.wrap > div:hover {
+  cursor: pointer;
+}
+
+.wrap > .-special {
+  background-color: #e15114;
 }
 
 p {
-    margin: 0 1.25rem;
-    font-size: 1.125rem;
-    user-select:none;
-    color: #000;
+  margin: 0 1.25rem;
+  font-size: 1.125rem;
+  user-select: none;
+  color: #424242;
 }
