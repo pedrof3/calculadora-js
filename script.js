@@ -1,6 +1,6 @@
 // Alterar todos os nomes declarados para português
 
-function number(num) {
+function numero(num) {
   if (document.getElementById("saida").innerHTML == `0`) {
     document.getElementById("saida").innerHTML = num;
   } else {
@@ -9,7 +9,7 @@ function number(num) {
   }
 }
 
-function operator(ope) {
+function operador(ope) {
   let screen = document.getElementById("saida").innerHTML;
   let regexOne = /[0-9]+[^0-9$]+[0-9]{1,}/gm;
   let regexTwo = /[0-9]+[^0-9$]/gm;
